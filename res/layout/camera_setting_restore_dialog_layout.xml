@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oppo="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/setting_pref_text_padding_bottom" android:id="@id/dialog_restore" android:paddingLeft="@dimen/slogan_edit_name_margin_left" android:paddingTop="@dimen/slogan_owner_text_padding_top" android:paddingRight="@dimen/slogan_edit_name_margin_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/camera_setting_restore_default" />
+    <TextView android:textSize="@dimen/setting_pref_text_padding_bottom" android:id="@id/dialog_cancel" android:paddingLeft="@dimen/slogan_edit_name_margin_left" android:paddingTop="@dimen/slogan_owner_text_padding_top" android:paddingRight="@dimen/slogan_edit_name_margin_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/camera_dialog_net_location_negative" />
+</LinearLayout>

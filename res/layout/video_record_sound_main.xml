@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.color.design.ColorCoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oppo="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.oppo.camera.ui.FixedListview android:id="@id/list_video_sound" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/video_sound_fixed_list_margin_top" android:divider="@null" />
+        <View android:id="@id/view_line" android:background="@color/video_view_dewind_noise_color" android:layout_width="fill_parent" android:layout_height="@dimen/video_sound_view_line_height" android:layout_marginTop="@dimen/video_sound_view_line_margin_top" android:layout_below="@id/list_video_sound" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/video_sound_switcher_container_padding_start_end" android:layout_marginEnd="@dimen/video_sound_switcher_container_padding_start_end" />
+        <RelativeLayout android:id="@id/dewind_sound_switch_layout" android:layout_width="fill_parent" android:layout_height="@dimen/video_sound_switcher_container_height" android:layout_marginTop="@dimen/video_sound_switcher_container_margin_top" android:layout_below="@id/view_line" android:paddingStart="@dimen/video_sound_switcher_container_padding_start_end" android:paddingEnd="@dimen/video_sound_switcher_container_padding_start_end" android:autofillHints="=">
+            <TextView android:textSize="@dimen/video_sound_name_text_size" android:textColor="@android:color/black" android:ellipsize="end" android:id="@id/dewind_noise_text" android:layout_width="@dimen/video_sound_description_container_width" android:layout_height="wrap_content" android:text="@string/camera_video_dewind_noise_title" android:singleLine="true" android:layout_centerVertical="true" android:textAlignment="viewStart" android:layout_alignParentStart="true" />
+            <com.color.widget.ColorSwitch android:id="@id/dewind_sound_switch" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.color.design.ColorAppBarLayout android:id="@id/abl" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" oppo:elevation="0.0dip" oppo:layout_behavior="com.color.design.ColorHeadScaleBehavior" />
+</com.color.design.ColorCoordinatorLayout>

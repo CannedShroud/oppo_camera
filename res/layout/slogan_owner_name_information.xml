@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_list_overscroll_background_color" android:paddingTop="@dimen/slogan_owner_text_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oppo="http://schemas.android.com/apk/res/oppo">
+    <com.android.ui.menu.CameraSwitchPreference android:title="@string/camera_slogan_title" android:key="pref_camera_slogan_key" android:defaultValue="@string/camera_slogan_default_value" />
+</LinearLayout>

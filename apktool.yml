@@ -1,0 +1,71 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.oppo.camera.apk
+compressionType: false
+doNotCompress:
+- classes.dex
+- resources.arsc
+- assets/3542-139-eec0b0dcecc5d98cf43896461f46c51e.lic
+- assets/M_SenseME_Action_5.2.12.model
+- png
+- jpg
+- lib/arm64-v8a/lib2DSlender.so
+- lib/arm64-v8a/libAPSClient-jni.so
+- lib/arm64-v8a/libApsFaceBeautyPreviewJni.so
+- lib/arm64-v8a/libAvatarEngineRender.so
+- lib/arm64-v8a/libAvatarEngineRenderNative.so
+- lib/arm64-v8a/libFormatConverter.so
+- lib/arm64-v8a/libMegviiHumBokeh-jni.so
+- lib/arm64-v8a/libNvStreamingSdkCore.so
+- lib/arm64-v8a/libXDocProcessSDK.so
+- lib/arm64-v8a/libarcsoft_gpuvideobokeh_advanced.so
+- lib/arm64-v8a/libarcsoft_panorama_burstcapture.so
+- lib/arm64-v8a/libarcsoft_singlecam_bokeh_7150.so
+- lib/arm64-v8a/libarcsoft_wideselfie.so
+- lib/arm64-v8a/libcommon.so
+- lib/arm64-v8a/libjni_burstpmk.so
+- lib/arm64-v8a/libjni_wideselfie.so
+- lib/arm64-v8a/libjnistblur_preview_api.so
+- lib/arm64-v8a/libmpbase.so
+- lib/arm64-v8a/libsingle_camera_bokeh_native_7150.so
+- lib/arm64-v8a/libst_sticker.so
+- lib/arm64-v8a/libst_sticker_jni.so
+- lib/arm64-v8a/libstblur_preview_api.so
+- lib/arm64-v8a/libtouchless_a3d.so
+- lib/arm64-v8a/libtouchless_a3d_jni.so
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '28'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  LICENSE-junit.txt: '8'
+  junit/runner/logo.gif: '0'
+  junit/runner/smalllogo.gif: '0'
+  com/arcsoft/camera/burstpmk/YuvToRgb.rs: '8'
+  com/oppo/gallery3d/predecode/IPreDecode.aidl: '8'
+  google/protobuf/any.proto: '8'
+  google/protobuf/api.proto: '8'
+  google/protobuf/descriptor.proto: '8'
+  google/protobuf/duration.proto: '8'
+  google/protobuf/empty.proto: '8'
+  google/protobuf/field_mask.proto: '8'
+  google/protobuf/source_context.proto: '8'
+  google/protobuf/struct.proto: '8'
+  google/protobuf/timestamp.proto: '8'
+  google/protobuf/type.proto: '8'
+  google/protobuf/wrappers.proto: '8'
+  google/protobuf/compiler/plugin.proto: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.4.1
+versionInfo:
+  versionCode: '40026'
+  versionName: 3.1.0

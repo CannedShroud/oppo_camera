@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="blur_bg_height">186.28dip</dimen>
+    <dimen name="control_panel_button_height">183.50998dip</dimen>
+    <dimen name="control_panel_layout_height">194.44998dip</dimen>
+    <dimen name="menu_panel_layout_height">58.819977dip</dimen>
+    <dimen name="panorama_rect_height">83.32999dip</dimen>
+    <dimen name="top_bar_layout_height">58.819977dip</dimen>
+    <dimen name="bubble_close_margin_left">9.799988dip</dimen>
+    <dimen name="bubble_padding_left">10.629974dip</dimen>
+    <dimen name="bubble_padding_right">10.629974dip</dimen>
+    <dimen name="bubble_text_line_spacing">3.269989dip</dimen>
+    <dimen name="bubble_text_max_width">230.38998dip</dimen>
+    <dimen name="bubble_text_size">10.629974dip</dimen>
+    <dimen name="bubble_type_short_video_offset_x">0.0dip</dimen>
+    <dimen name="bubble_type_short_video_offset_y">113.01999dip</dimen>
+    <dimen name="bubble_type_short_video_offset_y_virtual_key">104.57999dip</dimen>
+    <dimen name="bubble_type_sticker_offset_x">7.3599854dip</dimen>
+    <dimen name="bubble_type_sticker_offset_y">215.69dip</dimen>
+    <dimen name="control_panel_margin_bottom">5.7099915dip</dimen>
+    <dimen name="control_panel_margin_bottom_virtual_key">5.7099915dip</dimen>
+    <dimen name="control_panel_third_video_margin_bottom">5.7099915dip</dimen>
+    <dimen name="control_panel_third_video_margin_bottom_virtual_key">5.7099915dip</dimen>
+    <dimen name="ear_screen_menu_item_offset">9.799988dip</dimen>
+    <dimen name="ear_screen_menu_offset">11.439972dip</dimen>
+    <dimen name="head_line_margin_top">6.539978dip</dimen>
+    <dimen name="record_time_margin_bottom">146.50998dip</dimen>
+    <dimen name="record_time_margin_bottom_third_party">145.97dip</dimen>
+    <dimen name="shutter_button_margin_bottom">72.129974dip</dimen>
+    <dimen name="switch_camera_button_margin_bottom">81.73999dip</dimen>
+    <dimen name="thumbnail_margin_bottom">82.75998dip</dimen>
+</resources>

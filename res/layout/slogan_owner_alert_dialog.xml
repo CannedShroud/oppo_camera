@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oppo="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/descriptions" android:paddingLeft="@dimen/slogan_edit_name_margin_left" android:paddingTop="@dimen/slogan_owner_text_padding_top" android:paddingRight="@dimen/slogan_edit_name_margin_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/camera_slogan_owner_summary" style="@style/OppoListViewTextAppearance.Small" />
+    <com.color.support.widget.ColorEditText android:id="@id/owner_name" android:paddingTop="@dimen/slogan_edit_name_padding_top" android:paddingBottom="@dimen/slogan_edit_name_padding_top" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/slogan_owner_edit_name_input_hint" android:singleLine="true" android:maxLength="20" android:inputType="text" android:imeOptions="actionDone" android:textAlignment="viewStart" android:layout_marginStart="@dimen/slogan_edit_name_margin_left" android:layout_marginEnd="@dimen/slogan_edit_name_margin_right" oppo:quickDelete="true" />
+</LinearLayout>
