@@ -12,11 +12,9 @@
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
-    <uses-permission android:name="com.oppo.gallery3d.permission.PROVIDER"/>
-    <uses-permission android:name="com.oppo.permission.OCLICK"/>
-    <uses-permission android:name="oppo.permission.APP_SETTING"/>
+    <uses-permission android:name="android.permission.PROVIDER"/>
     <uses-permission android:name="android.permission.CONTROL_KEYGUARD"/>
-    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
@@ -31,14 +29,12 @@
     <uses-permission android:name="android.permission.MANAGE_NOTIFICATIONS"/>
     <uses-permission android:name="android.permission.STATUS_BAR_SERVICE"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
-    <uses-permission android:name="heytap.speechassist.permission.FLOAT_WINDOW_STATUS"/>
     <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
     <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="false"/>
-    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@drawable/ic_launcher_camera" android:label="@string/camera_app_name" android:largeHeap="true" android:logo="@drawable/ic_launcher_camera" android:maxAspectRatio="2.2" android:name="com.oppo.camera.MyApplication" android:supportsRtl="true">
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@drawable/ic_launcher_camera" android:label="@string/camera_app_name" android:largeHeap="true" android:logo="@drawable/ic_launcher_camera" android:maxAspectRatio="2.2" android:name="com.oppo.camera.MyApplication" android:supportsRtl="true">
         <meta-data android:name="versionCommit" android:value="_cdf1c36"/>
         <meta-data android:name="versionDate" android:value="200429"/>
         <meta-data android:name="AppCode" android:value="20009"/>
-        <uses-library android:name="coloros.support" android:required="true"/>
         <activity android:clearTaskOnLaunch="true" android:configChanges="keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenSize|uiMode" android:label="@string/camera_app_name" android:launchMode="singleTop" android:name="com.oppo.camera.Camera" android:resizeableActivity="false" android:screenOrientation="portrait" android:showWhenLocked="true" android:taskAffinity="com.oppo.camera" android:theme="@style/ThemeCamera" android:visibleToInstantApps="true" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
